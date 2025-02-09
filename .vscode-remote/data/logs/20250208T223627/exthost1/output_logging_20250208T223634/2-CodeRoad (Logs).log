@@ -1,0 +1,465 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Using tutorial url from env: https://raw.githubusercontent.com/freeCodeCamp/learn-salon-appointment-scheduler/main/tutorial.json
+Tutorial: Salon Appointment Scheduler (2.0.0)
+START_TUTORIAL_FROM_URL
+EDITOR_TUTORIAL_CONFIG
+Calling command: node --version
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+Workspace path: /workspace/project/.git
+Check file exists: /workspace/project/.git
+Calling command: git ls-remote --exit-code --heads https://github.com/freeCodeCamp/learn-salon-appointment-scheduler
+Calling command: git ls-remote --exit-code --heads https://github.com/freeCodeCamp/learn-salon-appointment-scheduler v2.0.0
+Calling command: git remote -v
+Calling command: git remote add coderoad https://github.com/freeCodeCamp/learn-salon-appointment-scheduler && git fetch coderoad
+Calling command: git log -n 1 --pretty=format:%s 7069ee218ff2f4829899346da00c90c217dde0a8
+Calling command: git log -g --grep='INIT'
+Calling command: git cherry-pick -X theirs 7069ee218ff2f4829899346da00c90c217dde0a8
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+
+COMMAND_SUCCESS
+Command: cd .freeCodeCamp && npm install
+COMMAND_START
+Calling command: cd .freeCodeCamp && npm install
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+Command failed: npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated glob@7.1.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated flat@4.1.0: Fixed a prototype pollution security issue in 4.1.0, please upgrade to ^4.1.1 or ^5.0.1.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm notice 
+npm notice New major version of npm available! 10.2.4 -> 11.1.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.1.0>
+npm notice Run `npm install -g npm@11.1.0` to update!
+npm notice 
+
+COMMAND_FAIL
+TUTORIAL_CONFIGURED
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+STATE: "Setup.StartTutorial"
+ROUTE: "Setup.StartTutorial": On level 1, step 1.1
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 138fb9ad8ffd8d8bffa03b707805f2d1e42afd63
+Calling command: git log -g --grep='1.1'
+Calling command: git cherry-pick -X theirs 138fb9ad8ffd8d8bffa03b707805f2d1e42afd63
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: not found
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+An error occurred running ../salon.sh
+/bin/sh: 1: ../salon.sh: Permission denied
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+ERROR:  column "test" does not exist
+LINE 1: INSERT INTO customers(phone, name) VALUES('555-5555', Test)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  column "test" does not exist
+LINE 1: INSERT INTO customers(phone, name) VALUES('555-5555', Test)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  column "test" does not exist
+LINE 1: INSERT INTO customers(phone, name) VALUES('555-5555', Test)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  column "test" does not exist
+LINE 1: INSERT INTO customers(phone, name) VALUES('555-5555', Test)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  column "faketime" does not exist
+LINE 1: ...ERT INTO customers(phone, name) VALUES('555-5555', FakeTime)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...TO appointments(service_id, customer_id, time) VALUES(1, , )
+                                                                    ^
+An error occurred running ../salon.sh
+ERROR:  column "test" does not exist
+LINE 1: INSERT INTO customers(phone, name) VALUES('555-5555', Test)
+                                                              ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+An error occurred running ../salon.sh
+ERROR:  syntax error at or near ","
+LINE 1: ...intments(service_id, customer_id, time) VALUES(1, , FakeTime...
+                                                             ^
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, null, FakeTime).
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, 27, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, 28, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, 29, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, 30, FakeTime).
+An error occurred running ../salon.sh
+ERROR:  null value in column "appointment_id" violates not-null constraint
+DETAIL:  Failing row contains (null, 1, 31, FakeTime).
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1

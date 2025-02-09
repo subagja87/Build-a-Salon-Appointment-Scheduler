@@ -1,0 +1,138 @@
+[390ns] Shutting down all processes 
+[785.26µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[36.482106ms] Terminating process node with PID 703 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=614] <nil>). 
+[36.528336ms] Terminating process node with PID 594 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[36.730626ms] Terminating process node with PID 735 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=614] <nil>). 
+[36.763376ms] Terminating main process errored: waitid: no child processes 
+[36.854226ms] Terminating process salon.sh with PID 15587 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[36.932436ms] Terminating process postgres with PID 877 (state: S, cmdlind: [postgres: 12/main: walwriter   ] <nil>). 
+[36.974946ms] Terminating process sh with PID 6743 (state: T, cmdlind: [sh -c pager] <nil>). 
+[36.967586ms] Terminating main process errored: waitid: no child processes 
+[37.114136ms] Terminating process pager with PID 6744 (state: T, cmdlind: [pager] <nil>). 
+[36.874686ms] Terminating process node with PID 677 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20250208T223627] <nil>). 
+[37.143576ms] Terminating process postgres with PID 879 (state: S, cmdlind: [postgres: 12/main: stats collector   ] <nil>). 
+[37.179626ms] Terminating main process errored: waitid: no child processes 
+[37.235546ms] Terminating process bash with PID 722 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[37.266566ms] Terminating main process errored: waitid: no child processes 
+[37.285846ms] Terminating process postgres with PID 878 (state: S, cmdlind: [postgres: 12/main: autovacuum launcher   ] <nil>). 
+[37.330866ms] Terminating process postgres with PID 876 (state: S, cmdlind: [postgres: 12/main: background writer   ] <nil>). 
+[36.957496ms] Terminating process node with PID 614 (state: R, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[37.591516ms] Terminating process postgres with PID 72224 (state: S, cmdlind: [postgres: 12/main: freecodecamp postgres 127.0.0.1(52940) idle] <nil>). 
+[37.629576ms] Terminating process node with PID 70 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension coderoad.coderoad --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[37.714296ms] Terminating process psql with PID 1077 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[37.728876ms] Terminating process postgres with PID 873 (state: S, cmdlind: [/usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf] <nil>). 
+[37.853516ms] Terminating process psql with PID 18527 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[37.858366ms] Terminating process postgres with PID 875 (state: S, cmdlind: [postgres: 12/main: checkpointer   ] <nil>). 
+[37.907266ms] Terminating main process errored: waitid: no child processes 
+[37.908476ms] Terminating process postgres with PID 1799 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(32846) idle] <nil>). 
+[37.933726ms] Terminating process salon.sh with PID 28377 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[37.910656ms] Terminating process salon.sh with PID 22507 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[37.984646ms] Terminating process salon.sh with PID 22092 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[37.995356ms] Terminating process psql with PID 17967 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[37.996336ms] Terminating process salon.sh with PID 32827 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[38.043526ms] Terminating main process errored: waitid: no child processes 
+[38.060026ms] Terminating process salon.sh with PID 22867 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[37.867356ms] Terminating process psql with PID 38192 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[38.078616ms] Terminating process salon.sh with PID 28954 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[38.083496ms] Terminating process postgres with PID 34891 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(59346) idle] <nil>). 
+[38.091206ms] Terminating process salon.sh with PID 25030 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[38.112106ms] Terminating process postgres with PID 38313 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(37044) idle] <nil>). 
+[38.116076ms] Terminating main process errored: waitid: no child processes 
+[39.131776ms] Terminating process postgres with PID 880 (state: S, cmdlind: [postgres: 12/main: logical replication launcher   ] <nil>). 
+[39.185765ms] Terminating process salon.sh with PID 31927 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[39.212525ms] Terminating process salon.sh with PID 20430 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[39.185996ms] Terminating main process errored: waitid: no child processes 
+[38.082706ms] Terminating process psql with PID 7093 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[39.439205ms] Terminating process postgres with PID 18617 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(56000) idle] <nil>). 
+[39.506645ms] Terminating process postgres with PID 7167 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(43762) idle] <nil>). 
+[39.636845ms] Terminating process salon.sh with PID 29559 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[39.634825ms] Terminating process pager with PID 38658 (state: T, cmdlind: [pager] <nil>). 
+[37.997966ms] Terminating process psql with PID 34613 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[39.725675ms] Terminating process sh with PID 38657 (state: T, cmdlind: [sh -c pager] <nil>). 
+[39.900655ms] Terminating process salon.sh with PID 36551 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.263695ms] Terminating main process errored: waitid: no child processes 
+[40.279505ms] Terminating main process errored: waitid: no child processes 
+[40.390205ms] Terminating process salon.sh with PID 21671 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.415345ms] Terminating process pager with PID 18249 (state: T, cmdlind: [pager] <nil>). 
+[40.417865ms] Terminating process salon.sh with PID 20821 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.441605ms] Terminating process salon.sh with PID 25770 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.444275ms] Terminating process salon.sh with PID 50917 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.503415ms] Terminating process psql with PID 72223 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[40.535675ms] Terminating process pager with PID 65880 (state: T, cmdlind: [pager] <nil>). 
+[40.549385ms] Terminating process postgres with PID 18066 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(41774) idle] <nil>). 
+[40.558365ms] Terminating process salon.sh with PID 24342 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.554325ms] Terminating process salon.sh with PID 47507 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.586045ms] Terminating process salon.sh with PID 26759 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.638805ms] Terminating process salon.sh with PID 23361 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.649215ms] Terminating process salon.sh with PID 30327 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.661865ms] Terminating main process errored: waitid: no child processes 
+[40.675085ms] Terminating process salon.sh with PID 42935 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.654455ms] Terminating process salon.sh with PID 23717 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.712455ms] Terminating process psql with PID 39347 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[40.729455ms] Terminating process sh with PID 18248 (state: T, cmdlind: [sh -c pager] <nil>). 
+[40.737245ms] Terminating main process errored: waitid: no child processes 
+[40.650185ms] Terminating process pager with PID 42234 (state: T, cmdlind: [pager] <nil>). 
+[40.747015ms] Terminating process salon.sh with PID 27490 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.756515ms] Terminating process salon.sh with PID 26251 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.790815ms] Terminating process postgres with PID 70794 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(46162) idle] <nil>). 
+[40.820295ms] Terminating main process errored: waitid: no child processes 
+[40.846355ms] Terminating process salon.sh with PID 44880 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.850445ms] Terminating process psql with PID 64611 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[40.878045ms] Terminating process salon.sh with PID 46044 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.926505ms] Terminating process postgres with PID 65054 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(56982) idle] <nil>). 
+[40.881095ms] Terminating process postgres with PID 39673 (state: S, cmdlind: [postgres: 12/main: freecodecamp salon 127.0.0.1(42412) idle] <nil>). 
+[40.945955ms] Terminating process sh with PID 65879 (state: T, cmdlind: [sh -c pager] <nil>). 
+[40.960875ms] Terminating process salon.sh with PID 37653 (state: T, cmdlind: [/bin/bash ./salon.sh] <nil>). 
+[40.983445ms] Terminating process psql with PID 70379 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[41.012725ms] Terminating main process errored: waitid: no child processes 
+[41.082755ms] Terminating main process errored: waitid: no child processes 
+[41.121475ms] Terminating process sh with PID 42233 (state: T, cmdlind: [sh -c pager] <nil>). 
+[41.214715ms] Terminating main process errored: waitid: no child processes 
+[41.375115ms] Terminating main process errored: waitid: no child processes 
+[41.433085ms] Terminating main process errored: waitid: no child processes 
+[41.481105ms] Terminating main process errored: waitid: no child processes 
+[41.637735ms] Terminating main process errored: waitid: no child processes 
+[41.766745ms] Terminating main process errored: waitid: no child processes 
+[42.162285ms] Terminating main process errored: waitid: no child processes 
+[42.235805ms] Terminating main process errored: waitid: no child processes 
+[42.500485ms] Terminating main process errored: waitid: no child processes 
+[42.611285ms] Terminating main process errored: waitid: no child processes 
+[42.644125ms] Terminating main process errored: waitid: no child processes 
+[42.691455ms] Terminating main process errored: waitid: no child processes 
+[42.703735ms] Terminating main process errored: waitid: no child processes 
+[42.728235ms] Terminating main process errored: waitid: no child processes 
+[42.799725ms] Terminating main process errored: waitid: no child processes 
+[42.811275ms] Terminating main process errored: waitid: no child processes 
+[42.904025ms] Terminating main process errored: waitid: no child processes 
+[43.067985ms] Terminating main process errored: waitid: no child processes 
+[43.232985ms] Terminating main process errored: waitid: no child processes 
+[43.273685ms] Terminating main process errored: waitid: no child processes 
+[43.313405ms] Terminating main process errored: waitid: no child processes 
+[43.348025ms] Terminating main process errored: waitid: no child processes 
+[43.660285ms] Terminating main process errored: waitid: no child processes 
+[44.027985ms] Terminating main process errored: waitid: no child processes 
+[44.217015ms] Terminating main process errored: waitid: no child processes 
+[44.475345ms] Terminating main process errored: waitid: no child processes 
+[44.763135ms] Terminating main process errored: waitid: no child processes 
+[44.898345ms] Terminating main process errored: waitid: no child processes 
+[45.064225ms] Terminating main process errored: waitid: no child processes 
+[45.416535ms] Terminating main process errored: waitid: no child processes 
+[45.576125ms] Terminating main process errored: waitid: no child processes 
+[45.682365ms] Terminating main process errored: waitid: no child processes 
+[45.846655ms] Terminating main process errored: waitid: no child processes 
+[46.015385ms] Terminating main process errored: waitid: no child processes 
+[46.121935ms] Terminating main process errored: waitid: no child processes 
+[46.235155ms] Terminating main process errored: waitid: no child processes 
+[46.471595ms] Terminating main process errored: waitid: no child processes 
+[46.472405ms] Terminating main process errored: waitid: no child processes 
+[46.657095ms] Terminating main process errored: waitid: no child processes 
+[46.710005ms] Terminating main process errored: waitid: no child processes 
+[46.763785ms] Terminating main process errored: waitid: no child processes 
+[46.783655ms] Terminating main process errored: waitid: no child processes 
+[46.972744ms] Terminating main process errored: waitid: no child processes 
+[47.014575ms] Terminating main process errored: waitid: no child processes 
+[47.328195ms] Terminating main process errored: waitid: no child processes 
+[47.377264ms] Terminating main process errored: waitid: no child processes 
+[88.351151ms] Terminating main process errored: waitid: no child processes 
+[107.905958ms] Terminating main process errored: waitid: no child processes 
+[108.145918ms] Finished shutting down all processes. 
